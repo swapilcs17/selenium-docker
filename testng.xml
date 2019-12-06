@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Docker Selenium">
+ 
+    <test name="Book Flight Test">
+		<classes>
+			<class name="com.docker.test.BookFlightTest"></class>
+		</classes>
+	</test>   
+	
+     <test name="Book Flight Test1">
+		<classes>
+			<class name="com.docker.test.BookFlightTest"></class>
+		</classes>
+	</test>   
+	
+      <test name="Book Flight Test2">
+		<classes>
+			<class name="com.docker.test.BookFlightTest"></class>
+		</classes>
+	</test>   
+	
+       <test name="Book Flight Test3">
+		<classes>
+			<class name="com.docker.test.BookFlightTest"></class>
+		</classes>
+	</test>    
+    
+</suite>
+
