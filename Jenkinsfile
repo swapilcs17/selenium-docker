@@ -6,7 +6,7 @@ pipeline {
             steps {
                 //sh
                 bat "mvn clean package -DskipTests"
-                bat "-v C:\Users\Swapnil\jenkins/.m2:/root/.m2"
+                bat "-v C:\\Users\\Swapnil\\jenkins/.m2:/root/.m2"
             }
         }
         stage('Build Image') {
