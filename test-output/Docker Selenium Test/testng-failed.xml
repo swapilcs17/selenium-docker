@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Docker Selenium Test]" parallel="tests">
+  <test thread-count="5" name="Book Flight Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.docker.search.SearchTest">
+        <methods>
+          <include name="quit"/>
+          <include name="registrationTest"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.search.SearchTest -->
+    </classes>
+  </test> <!-- Book Flight Test1(failed) -->
+  <test thread-count="5" name="Book Flight Test4(failed)" parallel="tests">
+    <classes>
+      <class name="com.docker.search.SearchTest">
+        <methods>
+          <include name="quit"/>
+          <include name="registrationTest"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.search.SearchTest -->
+    </classes>
+  </test> <!-- Book Flight Test4(failed) -->
+  <test thread-count="5" name="Book Flight Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.docker.search.SearchTest">
+        <methods>
+          <include name="quit"/>
+          <include name="registrationTest"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.search.SearchTest -->
+    </classes>
+  </test> <!-- Book Flight Test3(failed) -->
+  <test thread-count="5" name="Book Flight Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.docker.search.SearchTest">
+        <methods>
+          <include name="quit"/>
+          <include name="registrationTest"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.search.SearchTest -->
+    </classes>
+  </test> <!-- Book Flight Test2(failed) -->
+</suite> <!-- Failed suite [Docker Selenium Test] -->
